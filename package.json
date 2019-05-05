@@ -8,14 +8,15 @@
     "dist/"
   ],
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "prebuild": "shx rm -Rf dist && shx mkdir dist",
+    "build": "parcel build src/index.ts --target=node",
     "lint": "tslint -p . -t verbose",
     "lint-fix": "yarn lint --fix",
     "prettier": "prettier --write {*,**/*}.{css,htm,html,js,json,md,scss,yaml,yml} && yarn sort-package-json",
     "test": "jest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "update-fixture": "ts-node script/FixtureGenerator.ts"
   },
   "dependencies": {
     "tslib": "1.9.3"
@@ -23,6 +24,8 @@
   "devDependencies": {
     "@types/jest": "24.0.11",
     "@types/markdown-it": "0.0.7",
+    "@types/node": "12.0.0",
+    "@types/shelljs": "0.8.5",
     "husky": "2.1.0",
     "jest": "24.7.1",
     "lint-staged": "8.1.5",
@@ -31,8 +34,11 @@
     "prettier": "1.17.0",
     "prettier-config-willbooster": "0.0.3",
     "renovate-config-willbooster": "0.0.4",
+    "shelljs": "0.8.3",
+    "shx": "0.3.2",
     "sort-package-json": "1.22.1",
     "ts-jest": "24.0.2",
+    "ts-node": "8.1.0",
     "tsconfig-willbooster": "0.0.3",
     "tslint": "5.16.0",
     "tslint-config-prettier": "1.18.0",

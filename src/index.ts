@@ -1,9 +1,5 @@
-export function index() {
-  console.log('Hello World!');
+function index(md: any, options: any) {
+  console.log('processMarkdown');
 }
 
-export function sum(a: number, b: number) {
-  return a + b;
-}
-
-index();
+export = index;
