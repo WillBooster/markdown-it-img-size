@@ -11,8 +11,12 @@ function testProcessingMarkdown(fixtureFileName: string) {
   expect(actual).toEqual(expected);
 }
 
-test.skip('process wo-size.md', () => {
-  testProcessingMarkdown('wo-size.md');
+test.skip('process w-size.md', () => {
+  testProcessingMarkdown('w-size.md');
+});
+
+test.skip('process w-percentage.md', () => {
+  testProcessingMarkdown('w-percentage.md');
 });
 
 test.skip('process w-width.md', () => {
@@ -23,10 +27,6 @@ test.skip('process w-height.md', () => {
   testProcessingMarkdown('w-height.md');
 });
 
-test.skip('process w-percentage.md', () => {
-  testProcessingMarkdown('w-size.md');
-});
-
-test.skip('process w-size.md', () => {
-  testProcessingMarkdown('w-size.md');
+test.skip('process wo-size.md', () => {
+  testProcessingMarkdown('wo-size.md');
 });
