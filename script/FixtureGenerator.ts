@@ -7,7 +7,7 @@ import path from 'path';
 const md = MarkdownIt();
 md.use(processMarkdown);
 
-const mdFiles = shell.ls(path.join(__dirname, '../test_fixture/*.md'));
+const mdFiles = shell.ls(path.join(__dirname, '../fixture/*.md'));
 for (const mdFile of mdFiles) {
   const content = readFixtureFile(mdFile);
   const result = md.render(content);

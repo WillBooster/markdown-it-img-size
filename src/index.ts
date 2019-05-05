@@ -1,5 +1,5 @@
 function index(md: any, options: any) {
-  console.log('processMarkdown');
+  console.log('markdownItImgSize');
 }
 
 export = index;
