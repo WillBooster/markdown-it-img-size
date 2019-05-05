@@ -19,3 +19,7 @@ build:
         name: Run lint
         code: |
           yarn lint
+    - script:
+        name: Run tests
+        code: |
+          yarn test

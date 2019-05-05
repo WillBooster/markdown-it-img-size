@@ -28,3 +28,7 @@ jobs:
           name: Run lint
           command: |
             yarn lint
+      - run:
+          name: Run tests
+          command: |
+            yarn test
