@@ -1,3 +1,3 @@
 # Sample
 
-![icon](icon.png =x200%)
+![icon](icon.png =\*200%)
