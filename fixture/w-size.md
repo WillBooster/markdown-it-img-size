@@ -1,3 +1,3 @@
 # Sample
 
-![icon](icon.png =100\*102)
+![icon](icon.png =100:102)

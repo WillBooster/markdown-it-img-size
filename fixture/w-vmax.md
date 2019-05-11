@@ -1,3 +1,3 @@
 # Sample
 
-![icon](icon.png =50vmax\*50vmax)
+![icon](icon.png =50vmax:50vmax)
