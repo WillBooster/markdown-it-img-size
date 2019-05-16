@@ -15,10 +15,6 @@ test.skip('process w-size.md', () => {
   testProcessingMarkdown('w-size.md');
 });
 
-test.skip('process w-percentage.md', () => {
-  testProcessingMarkdown('w-percentage.md');
-});
-
 test.skip('process w-width.md', () => {
   testProcessingMarkdown('w-width.md');
 });
@@ -27,6 +23,23 @@ test.skip('process w-height.md', () => {
   testProcessingMarkdown('w-height.md');
 });
 
+test.skip('process w-percentage.md', () => {
+  testProcessingMarkdown('w-percentage.md');
+});
+
+test.skip('process w-vhvw.md', () => {
+  testProcessingMarkdown('w-vhvw.md');
+});
+
+test.skip('process w-vmax.md', () => {
+  testProcessingMarkdown('w-vmax.md');
+});
+
+test.skip('process w-vmin.md', () => {
+  testProcessingMarkdown('w-vmin.md');
+});
+
 test.skip('process wo-size.md', () => {
+  // TODO: https://github.com/image-size/image-size should be used to detect image size
   testProcessingMarkdown('wo-size.md');
 });

@@ -1,3 +1,3 @@
 # Sample
 
-![icon](icon.png =200%x)
+![icon](icon.png =200%:)
