@@ -1,4 +1,6 @@
-function index(md: any, options: any) {
+import MarkdownIt from 'markdown-it';
+
+function index(md: MarkdownIt, options: any) {
   console.log('markdownItImgSize');
 }
 
