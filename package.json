@@ -38,7 +38,7 @@
     "shx": "0.3.2",
     "sort-package-json": "1.22.1",
     "ts-jest": "24.0.2",
-    "ts-node": "8.1.0",
+    "ts-node": "8.1.1",
     "tsconfig-willbooster": "0.0.3",
     "tslint": "5.16.0",
     "tslint-config-prettier": "1.18.0",
