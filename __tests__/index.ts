@@ -15,11 +15,11 @@ test('process w-size.md', () => {
   testProcessingMarkdown('w-size.md');
 });
 
-test.skip('process w-width.md', () => {
+test('process w-width.md', () => {
   testProcessingMarkdown('w-width.md');
 });
 
-test.skip('process w-height.md', () => {
+test('process w-height.md', () => {
   testProcessingMarkdown('w-height.md');
 });
 
