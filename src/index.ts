@@ -6,7 +6,7 @@ const index = (md: MarkdownIt, options: any) => {
       const pattern = /([a-zA-Z0-9_\.\/\-]+)/g;
       const matches = src.match(pattern);
       const line: string =
-        '<p><img src="' +
+        '<img src="' +
         matches[1] +
         '" alt="' +
         matches[0] +
@@ -26,7 +26,7 @@ const index = (md: MarkdownIt, options: any) => {
     state.src = convertMarkdownToHtml(state.src);
   }
 
-  md.inline.ruler.before('emphasis', 'image', replaceImgItSize);
+  md.inline.ruler.after('escape', 'image', replaceImgItSize);
 };
 
 export = index;

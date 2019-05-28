@@ -3,7 +3,7 @@ import markdownItImgSize from '../src';
 import { readFixtureFile } from '../src/util';
 
 function testProcessingMarkdown(fixtureFileName: string) {
-  const md = MarkdownIt();
+  const md = MarkdownIt({ html: true });
   md.use(markdownItImgSize);
   const input = readFixtureFile(`fixture/${fixtureFileName}`);
   const actual = md.render(input);
@@ -11,7 +11,7 @@ function testProcessingMarkdown(fixtureFileName: string) {
   expect(actual).toEqual(expected);
 }
 
-test.skip('process w-size.md', () => {
+test('process w-size.md', () => {
   testProcessingMarkdown('w-size.md');
 });
 
