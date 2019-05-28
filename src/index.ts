@@ -7,12 +7,11 @@ const index = (md: MarkdownIt, options: any) => {
       const matches = src.match(pattern);
       const line: string = `<img src="${matches[1]}" alt="${matches[0]}" width="${matches[2]}" height="${
         matches[3]
-      }" /></p>`;
+      }" />`;
       console.log(line);
       return line;
-    } else {
-      return src;
     }
+    return src;
   }
 
   function replaceImgItSize(state: any, silent: any) {
