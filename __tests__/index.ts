@@ -23,19 +23,19 @@ test.skip('process w-height.md', () => {
   testProcessingMarkdown('w-height.md');
 });
 
-test.skip('process w-percentage.md', () => {
+test('process w-percentage.md', () => {
   testProcessingMarkdown('w-percentage.md');
 });
 
-test.skip('process w-vhvw.md', () => {
+test('process w-vhvw.md', () => {
   testProcessingMarkdown('w-vhvw.md');
 });
 
-test.skip('process w-vmax.md', () => {
+test('process w-vmax.md', () => {
   testProcessingMarkdown('w-vmax.md');
 });
 
-test.skip('process w-vmin.md', () => {
+test('process w-vmin.md', () => {
   testProcessingMarkdown('w-vmin.md');
 });
 
