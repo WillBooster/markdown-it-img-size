@@ -1,9 +1,25 @@
 import MarkdownIt from 'markdown-it';
 
 const index = (md: MarkdownIt, options: any) => {
+  function getImgElements(str: any) {
+    const pattern = /([a-zA-Z0-9_\.\/\-\%]+)/g;
+    const matches = str.match(pattern);
+    const img: string | null = null;
+    const alt: string | null = null;
+    const width: string | null = null;
+    const height: string | null = null;
+    return {
+      img: matches[0],
+      alt: matches[1],
+      width: matches[2],
+      height: matches[3],
+    };
+  }
+
   function convertMarkdownToHtml(src: any) {
     const properPattern = /\s*\[\s*([a-zA-Z0-9_\.\-]+)\s*\]\s*\(\s*([a-zA-Z0-9_\.\-\%\=\:\s]+)\s*\)\s*/g;
     const str = src.match(properPattern);
+    console.log(getImgElements(str[0]));
     if (str[0] != null) {
       const pattern = /([a-zA-Z0-9_\.\/\-\%]+)/g;
       const matches = src.match(pattern);
