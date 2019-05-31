@@ -2,7 +2,9 @@ import MarkdownIt from 'markdown-it';
 
 const index = (md: MarkdownIt, options: any) => {
   function convertMarkdownToHtml(src: any) {
-    if (src[0] === '!') {
+    const properPattern = /\[([a-zA-Z0-9_\.\/\-\%]+)\]\(([a-zA-Z0-9_\.\/\-\%\=\:\s]+)\)/g;
+    const str = src.match(properPattern);
+    if (str[0] != null) {
       const pattern = /([a-zA-Z0-9_\.\/\-\%]+)/g;
       const matches = src.match(pattern);
       if (matches.length == 3) {
