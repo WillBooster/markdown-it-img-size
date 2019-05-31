@@ -44,7 +44,10 @@ test.skip('process wo-size.md', () => {
   testProcessingMarkdown('wo-size.md');
 });
 
-test.skip('process w-two-images.md', () => {
-  // TODO: correspond to multiple images
-  testProcessingMarkdown('w-two-images.md');
+test.skip('process images-2.md', () => {
+  testProcessingMarkdown('images-2.md');
+});
+
+test.skip('process images-3.md', () => {
+  testProcessingMarkdown('images-3.md');
 });
