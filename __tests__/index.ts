@@ -43,3 +43,8 @@ test.skip('process wo-size.md', () => {
   // TODO: https://github.com/image-size/image-size should be used to detect image size
   testProcessingMarkdown('wo-size.md');
 });
+
+test.skip('process w-two-images.md', () => {
+  // TODO: correspond to multiple images
+  testProcessingMarkdown('w-two-images.md');
+});
