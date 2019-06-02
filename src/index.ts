@@ -1,7 +1,29 @@
 import MarkdownIt from 'markdown-it';
+import StateCore = require('markdown-it/lib/rules_core/state_core');
 
-function index(md: MarkdownIt, options: any) {
-  console.log('markdownItImgSize');
-}
+const index = (md: MarkdownIt, options: any) => {
+  const imgRegex = /!\s*\[\s*([^\]]+)\s*\]\s*\(\s*([^\)]+)\s*\)/g;
+  const fileAndSizeRegex = /([^=\s]+)\s*=([^:]*):([^:]*)/;
+
+  function convertMarkdownToHtml(src: string) {
+    return src.replace(imgRegex, (substr: string, alt: string, img: string) => {
+      const fileAndSizeMatch = img.match(fileAndSizeRegex);
+      if (!fileAndSizeMatch) {
+        return `<img src="${img}" alt="${alt}" />`;
+      }
+
+      const [, file, width, height] = fileAndSizeMatch;
+      const widthAttr = width ? ` width="${width}"` : '';
+      const heightAttr = height ? ` height="${height}"` : '';
+      return `<img src="${file}" alt="${alt}"${widthAttr}${heightAttr} />`;
+    });
+  }
+
+  function replaceImgItSize(state: StateCore, silent: any) {
+    state.src = convertMarkdownToHtml(state.src);
+  }
+
+  md.inline.ruler.after('escape', 'image', replaceImgItSize);
+};
 
 export = index;
