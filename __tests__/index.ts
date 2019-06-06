@@ -3,7 +3,7 @@ import markdownItImgSize from '../src';
 import { readFixtureFile } from '../src/util';
 
 function testProcessingMarkdown(fixtureFileName: string) {
-  const md = MarkdownIt();
+  const md = MarkdownIt({ html: true });
   md.use(markdownItImgSize);
   const input = readFixtureFile(`fixture/${fixtureFileName}`);
   const actual = md.render(input);
@@ -11,31 +11,31 @@ function testProcessingMarkdown(fixtureFileName: string) {
   expect(actual).toEqual(expected);
 }
 
-test.skip('process w-size.md', () => {
+test('process w-size.md', () => {
   testProcessingMarkdown('w-size.md');
 });
 
-test.skip('process w-width.md', () => {
+test('process w-width.md', () => {
   testProcessingMarkdown('w-width.md');
 });
 
-test.skip('process w-height.md', () => {
+test('process w-height.md', () => {
   testProcessingMarkdown('w-height.md');
 });
 
-test.skip('process w-percentage.md', () => {
+test('process w-percentage.md', () => {
   testProcessingMarkdown('w-percentage.md');
 });
 
-test.skip('process w-vhvw.md', () => {
+test('process w-vhvw.md', () => {
   testProcessingMarkdown('w-vhvw.md');
 });
 
-test.skip('process w-vmax.md', () => {
+test('process w-vmax.md', () => {
   testProcessingMarkdown('w-vmax.md');
 });
 
-test.skip('process w-vmin.md', () => {
+test('process w-vmin.md', () => {
   testProcessingMarkdown('w-vmin.md');
 });
 
