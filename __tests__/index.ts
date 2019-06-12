@@ -5,9 +5,9 @@ import { readFixtureFile } from '../src/util';
 function testProcessingMarkdown(fixtureFileName: string) {
   const md = MarkdownIt({ html: true });
   md.use(markdownItImgSize);
-  const input = readFixtureFile(`fixture/${fixtureFileName}`);
+  const input = readFixtureFile(`test-fixtures/${fixtureFileName}`);
   const actual = md.render(input);
-  const expected = readFixtureFile(`fixture/${fixtureFileName}.html`);
+  const expected = readFixtureFile(`test-fixtures/${fixtureFileName}.html`);
   expect(actual).toEqual(expected);
 }
 
