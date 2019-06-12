@@ -23,7 +23,7 @@ const index = (md: MarkdownIt, options: any) => {
     state.src = convertMarkdownToHtml(state.src);
   }
 
-  md.inline.ruler.after('escape', 'image', replaceImgItSize);
+  md.core.ruler.before('normalize', 'image', replaceImgItSize);
 };
 
 export = index;
