@@ -44,10 +44,10 @@ test.skip('process wo-size.md', () => {
   testProcessingMarkdown('wo-size.md');
 });
 
-test.skip('process images-2.md', () => {
+test('process images-2.md', () => {
   testProcessingMarkdown('images-2.md');
 });
 
-test.skip('process images-3.md', () => {
+test('process images-3.md', () => {
   testProcessingMarkdown('images-3.md');
 });
