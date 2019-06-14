@@ -5,6 +5,7 @@ import { readFixtureFile } from '../src/util';
 function testProcessingMarkdown(fixtureFileName: string) {
   const md = MarkdownIt({ html: true });
   md.use(markdownItImgSize);
+  md.set.prototype.dir = `${process.cwd()}/test-fixtures/`;
   const input = readFixtureFile(`test-fixtures/${fixtureFileName}`);
   const actual = md.render(input);
   const expected = readFixtureFile(`test-fixtures/${fixtureFileName}.html`);
@@ -39,8 +40,7 @@ test('process w-vmin.md', () => {
   testProcessingMarkdown('w-vmin.md');
 });
 
-test.skip('process wo-size.md', () => {
-  // TODO: https://github.com/image-size/image-size should be used to detect image size
+test('process wo-size.md', () => {
   testProcessingMarkdown('wo-size.md');
 });
 
