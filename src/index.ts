@@ -1,5 +1,6 @@
 import MarkdownIt from 'markdown-it';
 import StateCore = require('markdown-it/lib/rules_core/state_core');
+import sizeOf from 'image-size';
 
 const index = (md: MarkdownIt, options: any) => {
   const imgRegex = /!\s*\[\s*([^\]]+)\s*\]\s*\(\s*([^\)]+)\s*\)/g;
@@ -9,7 +10,8 @@ const index = (md: MarkdownIt, options: any) => {
     return src.replace(imgRegex, (substr: string, alt: string, img: string) => {
       const fileAndSizeMatch = img.match(fileAndSizeRegex);
       if (!fileAndSizeMatch) {
-        return `<img src="${img}" alt="${alt}" />`;
+        const dimensions = sizeOf(`${md.set.prototype.dir}/${img}`);
+        return `<img src="${img}" alt="${alt}" width="${dimensions.width}" height="${dimensions.height}" />`;
       }
 
       const [, file, width, height] = fileAndSizeMatch;

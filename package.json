@@ -19,6 +19,8 @@
     "update-fixture": "ts-node script/FixtureGenerator.ts"
   },
   "dependencies": {
+    "@types/image-size": "0.7.0",
+    "image-size": "0.7.4",
     "tslib": "1.10.0"
   },
   "devDependencies": {
