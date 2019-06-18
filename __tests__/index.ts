@@ -1,14 +1,16 @@
 import MarkdownIt from 'markdown-it';
 import markdownItImgSize from '../src';
 import { readFixtureFile } from '../src/util';
+import path from 'path';
+
+process.chdir(path.resolve('test-fixtures'));
 
 function testProcessingMarkdown(fixtureFileName: string) {
   const md = MarkdownIt({ html: true });
   md.use(markdownItImgSize);
-  md.set.prototype.dir = `${process.cwd()}/test-fixtures/`;
-  const input = readFixtureFile(`test-fixtures/${fixtureFileName}`);
+  const input = readFixtureFile(`${fixtureFileName}`);
   const actual = md.render(input);
-  const expected = readFixtureFile(`test-fixtures/${fixtureFileName}.html`);
+  const expected = readFixtureFile(`${fixtureFileName}.html`);
   expect(actual).toEqual(expected);
 }
 
