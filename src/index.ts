@@ -3,11 +3,11 @@ import StateCore = require('markdown-it/lib/rules_core/state_core');
 import sizeOf from 'image-size';
 import path from 'path';
 
-const index = (md: MarkdownIt, options: any) => {
-  const imgRegex = /!\s*\[\s*([^\]]+)\s*\]\s*\(\s*([^\)]+)\s*\)/g;
+const index = (md: MarkdownIt): void => {
+  const imgRegex = /!\s*\[\s*([^\]]+)\s*\]\s*\(\s*([^)]+)\s*\)/g;
   const fileAndSizeRegex = /([^=\s]+)\s*=([^:]*):([^:]*)/;
 
-  function convertMarkdownToHtml(src: string) {
+  function convertMarkdownToHtml(src: string): string {
     return src.replace(imgRegex, (substr: string, alt: string, img: string) => {
       const fileAndSizeMatch = img.match(fileAndSizeRegex);
 
@@ -23,7 +23,7 @@ const index = (md: MarkdownIt, options: any) => {
     });
   }
 
-  function replaceImgItSize(state: StateCore, silent: any) {
+  function replaceImgItSize(state: StateCore): void {
     state.src = convertMarkdownToHtml(state.src);
   }
 

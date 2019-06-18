@@ -5,7 +5,7 @@ import path from 'path';
 
 process.chdir(path.resolve('test-fixtures'));
 
-function testProcessingMarkdown(fixtureFileName: string) {
+function testProcessingMarkdown(fixtureFileName: string): void {
   const md = MarkdownIt({ html: true });
   md.use(markdownItImgSize);
   const input = readFixtureFile(`${fixtureFileName}`);
