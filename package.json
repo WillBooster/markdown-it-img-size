@@ -36,7 +36,7 @@
     "@willbooster/renovate-config": "0.0.11",
     "@willbooster/tsconfig": "0.0.11",
     "eslint": "5.16.0",
-    "eslint-config-prettier": "5.0.0",
+    "eslint-config-prettier": "5.1.0",
     "eslint-plugin-prettier": "3.1.0",
     "husky": "2.5.0",
     "jest": "24.8.0",
