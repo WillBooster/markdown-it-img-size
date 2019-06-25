@@ -1131,10 +1131,12 @@
   resolved "https://registry.yarnpkg.com/@willbooster/eslint-config/-/eslint-config-0.0.10.tgz#7a2bcbeb4b7a39f2a11e3e43a86fb36482d1da9b"
   integrity sha512-JnbFW/eTvLnYsmYU4PiQ4dbPpEV/pewmkIgKqeEpwkRPH2k8ncnVHoEFQqQv3qzB4uetmIggNdVEw+lmeyRHMQ==
 
-"@willbooster/prettier-config@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@willbooster/prettier-config/-/prettier-config-0.0.11.tgz#b59c705b87902dbbdb693176bc201eb7e5992d62"
-  integrity sha512-tRjwTsDD7Ns5ZrVxUdqJTkLZDQza1crl5CLXyV042Lt2mcwqnU/HjbAD3aJ9t0AVu+WuYRfbPp14aXtA184gLQ==
+"@willbooster/prettier-config@0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@willbooster/prettier-config/-/prettier-config-0.0.13.tgz#364c7729a1f03f3f4bea8bb0abd276b88d17e2cc"
+  integrity sha512-JGbuFCUCDFtYg9qHGNJ6dT6/4jK6T7v8UcELORuFJVeQ4nBK9LEeby22yCRfjBCI3ucwo3Vk2eMPqR1lauvu3w==
+  dependencies:
+    prettier "1.18.2"
 
 "@willbooster/renovate-config@0.0.11":
   version "0.0.11"
