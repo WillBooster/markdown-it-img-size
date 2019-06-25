@@ -1136,10 +1136,10 @@
   resolved "https://registry.yarnpkg.com/@willbooster/prettier-config/-/prettier-config-0.0.11.tgz#b59c705b87902dbbdb693176bc201eb7e5992d62"
   integrity sha512-tRjwTsDD7Ns5ZrVxUdqJTkLZDQza1crl5CLXyV042Lt2mcwqnU/HjbAD3aJ9t0AVu+WuYRfbPp14aXtA184gLQ==
 
-"@willbooster/renovate-config@0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@willbooster/renovate-config/-/renovate-config-0.0.10.tgz#4e6d5abb15b4c314c6288b46ab150f6ace08d348"
-  integrity sha512-TyzPuga/zbrTJdKcSd/sSeqokwsxF9GMMmzzRPCFMr1PiqJ80E7ee+elKP/2jTnFNd5DSwhrb9mIF65lmgC5iw==
+"@willbooster/renovate-config@0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@willbooster/renovate-config/-/renovate-config-0.0.11.tgz#2216503a7dfafe6bacc72d8aae13056a62631bee"
+  integrity sha512-r2BGNiP/PxzZPFaKvtY0pWoWuw1WQzZ6kAGOf6YFyLo5erRKkVzfbEFQ/ccD9DDtI1H+6NnZJ0SJaLgNCSJozw==
 
 "@willbooster/tsconfig@0.0.10":
   version "0.0.10"
