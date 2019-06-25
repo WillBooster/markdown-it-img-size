@@ -1,7 +1,7 @@
-import MarkdownIt from 'markdown-it';
-import StateCore = require('markdown-it/lib/rules_core/state_core');
-import sizeOf from 'image-size';
 import path from 'path';
+import MarkdownIt from 'markdown-it';
+import StateCore from 'markdown-it/lib/rules_core/state_core';
+import sizeOf from 'image-size';
 
 const index = (md: MarkdownIt): void => {
   const imgRegex = /!\s*\[\s*([^\]]+)\s*\]\s*\(\s*([^)]+)\s*\)/g;
@@ -30,4 +30,4 @@ const index = (md: MarkdownIt): void => {
   md.core.ruler.before('normalize', 'image', replaceImgItSize);
 };
 
-export = index;
+export default index;

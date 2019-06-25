@@ -1,8 +1,8 @@
+import path from 'path';
 import MarkdownIt from 'markdown-it';
+import shell from 'shelljs';
 import processMarkdown from '../src';
 import { readFixtureFile, writeFixtureFile } from '../src/util';
-import shell from 'shelljs';
-import path from 'path';
 
 const md = MarkdownIt();
 md.use(processMarkdown);
