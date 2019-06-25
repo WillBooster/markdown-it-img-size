@@ -1143,10 +1143,10 @@
   resolved "https://registry.yarnpkg.com/@willbooster/renovate-config/-/renovate-config-0.0.11.tgz#2216503a7dfafe6bacc72d8aae13056a62631bee"
   integrity sha512-r2BGNiP/PxzZPFaKvtY0pWoWuw1WQzZ6kAGOf6YFyLo5erRKkVzfbEFQ/ccD9DDtI1H+6NnZJ0SJaLgNCSJozw==
 
-"@willbooster/tsconfig@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@willbooster/tsconfig/-/tsconfig-0.0.11.tgz#4d2f7cdf79d964d2fbe5faff028b1ae2524a2bc1"
-  integrity sha512-nm7yEq0+UB2Rkjl3MIJwjuaIKG2BugU30QmtYp6sa4cGbqfV6CwH3h5ssBpBNTX48mBKdZ1tH33Nwq9wMnckyg==
+"@willbooster/tsconfig@0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@willbooster/tsconfig/-/tsconfig-0.0.13.tgz#9a689820cf403613b08ba76acb47dd4d3f79c1ca"
+  integrity sha512-vLxcPPFtXV67IX3zRPFRdd3V5qqzqN9h1RuE6ELNx2FcQqasY3cunJ/1C9oWow+HxG55rBho+cm/w8N4E+d0Ng==
   dependencies:
     tslib "1.10.0"
 
