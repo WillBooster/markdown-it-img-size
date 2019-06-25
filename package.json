@@ -14,7 +14,7 @@
     "format": "yarn lint-fix && yarn prettier && yarn sort-package-json",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "yarn lint --fix",
-    "prettier": "prettier --write {,*/}**/*.{css,htm,html,js,json,md,scss,yaml,yml}",
+    "prettier": "prettier --write {,*/}**/*.{css,htm,html,json,md,scss,yaml,yml}",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "update-fixture": "ts-node script/FixtureGenerator.ts"
