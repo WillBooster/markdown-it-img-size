@@ -30,7 +30,7 @@
     "@types/markdown-it": "0.0.8",
     "@types/node": "12.0.12",
     "@types/shelljs": "0.8.5",
-    "@willbooster/eslint-config": "0.0.13",
+    "@willbooster/eslint-config": "0.1.0",
     "@willbooster/prettier-config": "0.0.13",
     "@willbooster/renovate-config": "0.1.0",
     "@willbooster/tsconfig": "0.0.13",
