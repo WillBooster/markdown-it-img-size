@@ -1165,12 +1165,10 @@
   resolved "https://registry.yarnpkg.com/@willbooster/renovate-config/-/renovate-config-0.1.0.tgz#1e2e3964d873d6961b42752639d70cff8db8ad03"
   integrity sha512-5RjPhMNb8/2oD99emOjBMQYe7BXP8mzwnLlORnv9+PrswIvxIxhvM1TmLxIUbmOvJGNWHVBCnODck9GqzBjOAA==
 
-"@willbooster/tsconfig@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@willbooster/tsconfig/-/tsconfig-0.1.0.tgz#6882d060c436cf60db855ccde596e8e764426a0c"
-  integrity sha512-VM+Cf6VrqFZ/xd1SY9PxdUIWNBXutIAfCHfOPIR7yCzJKU0HFed6qBIa4flZHe9RJSEEC4bkpgKvb1QohhkiGw==
-  dependencies:
-    tslib "1.10.0"
+"@willbooster/tsconfig@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@willbooster/tsconfig/-/tsconfig-0.1.3.tgz#d6328a28036b1c1d0c04da1bdcd1aaab9f2b2894"
+  integrity sha512-/Zssxn7HTfnRaKjdScf6G0HXf3FSENaI+OsjmK2oL3B0B+Yztt3ThhpKWki4rG+q2wVp6jT0NNf9nGwuk59cJA==
 
 abab@^2.0.0:
   version "2.0.0"
