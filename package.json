@@ -31,7 +31,7 @@
     "@types/node": "12.7.11",
     "@types/shelljs": "0.8.5",
     "@typescript-eslint/eslint-plugin": "2.3.2",
-    "@typescript-eslint/parser": "2.3.2",
+    "@typescript-eslint/parser": "2.3.3",
     "@willbooster/eslint-config": "1.0.0",
     "@willbooster/prettier-config": "1.0.0",
     "@willbooster/tsconfig": "1.0.0",
