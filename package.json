@@ -30,7 +30,7 @@
     "@types/markdown-it": "0.0.9",
     "@types/node": "12.11.7",
     "@types/shelljs": "0.8.5",
-    "@typescript-eslint/eslint-plugin": "2.5.0",
+    "@typescript-eslint/eslint-plugin": "2.6.0",
     "@typescript-eslint/parser": "2.6.0",
     "@willbooster/eslint-config": "1.0.0",
     "@willbooster/prettier-config": "1.0.0",
