@@ -1,6 +1,1 @@
-{
-  "extends": ["@willbooster"],
-  "env": {
-    "node": true
-  }
-}
+{ "extends": ["@willbooster/eslint-config-ts"], "env": { "node": true } }
