@@ -1,7 +1,7 @@
 import path from 'path';
 import MarkdownIt from 'markdown-it';
 import StateCore from 'markdown-it/lib/rules_core/state_core';
-import sizeOf from 'image-size';
+import { imageSize } from 'image-size';
 
 const index = (md: MarkdownIt): void => {
   const imgRegex = /!\s*\[\s*([^\]]+)\s*\]\s*\(\s*([^)]+)\s*\)/g;
@@ -12,7 +12,7 @@ const index = (md: MarkdownIt): void => {
       const fileAndSizeMatch = img.match(fileAndSizeRegex);
 
       if (!fileAndSizeMatch) {
-        const dimensions = sizeOf(path.resolve(img));
+        const dimensions = imageSize(path.resolve(img));
         return `<img src="${img}" alt="${alt}" width="${dimensions.width}" height="${dimensions.height}" />`;
       }
 
