@@ -1,9 +1,5 @@
 {
   "extends": "./node_modules/@willbooster/tsconfig/tsconfig.json",
-  "compilerOptions": {
-    "outDir": "dist",
-    "declaration": true,
-    "typeRoots": ["./node_modules/@types", "./@types"]
-  },
-  "include": ["script/**/*", "src/**/*", "__tests__/**/*"]
+  "compilerOptions": { "outDir": "dist", "declaration": true, "typeRoots": ["./node_modules/@types", "./@types"] },
+  "include": ["src/**/*", "__tests__/**/*", "packages/*/src/**/*", "packages/*/__tests__/**/*"]
 }

@@ -11,10 +11,11 @@
   "scripts": {
     "prebuild": "shx rm -Rf dist && shx mkdir dist",
     "build": "parcel build src/index.ts --target=node",
-    "format": "yarn lint-fix && yarn prettier && yarn sort-package-json",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "yarn prettier && yarn sort-package-json && yarn lint-fix",
+    "lint": "eslint \"./{packages/*/,}{src,__tests__}/**/*.{js,jsx,ts,tsx}\"",
     "lint-fix": "yarn lint --fix",
-    "prettier": "prettier --write {,*/}**/*.{css,htm,html,json,md,scss,yaml,yml}",
+    "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,yaml,yml}\"",
+    "sort-package-json": "sort-package-json",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "update-fixture": "ts-node script/FixtureGenerator.ts"
@@ -32,7 +33,7 @@
     "@types/shelljs": "0.8.6",
     "@typescript-eslint/eslint-plugin": "2.7.0",
     "@typescript-eslint/parser": "2.7.0",
-    "@willbooster/eslint-config": "1.0.0",
+    "@willbooster/eslint-config-ts": "2.0.0",
     "@willbooster/prettier-config": "2.0.0",
     "@willbooster/tsconfig": "2.0.0",
     "eslint": "6.6.0",
