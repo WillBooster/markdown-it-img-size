@@ -1133,10 +1133,10 @@
   resolved "https://registry.yarnpkg.com/@willbooster/prettier-config/-/prettier-config-2.0.0.tgz#417df70a69b8f1070c2ab889fbf1a43830b98ff9"
   integrity sha512-JuMj/BX5PozZAz7UJSqBB9Pp/l/g2/8S8XIna3hTCznVRNOlCF+h+aKc5KaXp2L71Hcn0nQptzqA+zGPfbmsKA==
 
-"@willbooster/tsconfig@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@willbooster/tsconfig/-/tsconfig-2.0.0.tgz#9857ad5f29dd399bd10f519bb4b3bbafb25b4b94"
-  integrity sha512-/Qked0I7BhAQa/fsUxSB/KpYv2LHiveFgDLlk58d28D+LXC/HY5b6vyw4SmrmUGzAUB+AQ+BGwEsi8Nye4A2Fg==
+"@willbooster/tsconfig@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@willbooster/tsconfig/-/tsconfig-2.1.0.tgz#8db078719041deb1454f9b59999384909f8f3f64"
+  integrity sha512-chF7NUks0xGYDsCY03DyvXO22tYHuFPDTKL9S4R/0yuamKRGy9YYS/X+uo0arc5aDSh7IFRSHlnfhUi/T7wlJg==
 
 abab@^2.0.0:
   version "2.0.3"
