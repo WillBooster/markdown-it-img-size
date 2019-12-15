@@ -1045,10 +1045,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.15.tgz#8dfb6ce22fedd469128137640a3aa8f17415422f"
   integrity sha512-Pv+vWicyFd07Hw/SmNnTUguqrHgDfMtjabvD9sQyxeqbpCEg8CmViLBaVPHtNsoBgZECrRf5/pgV6FJIBrGSjw==
 
-"@types/node@12.12.16":
-  version "12.12.16"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.16.tgz#3ebcbd7bf978fa4c5120fee8be57083271a8b3ac"
-  integrity sha512-vRuMyoOr5yfNf8QWxXegOjeyjpWJxFePzHzmBOIzDIzo+rSqF94RW0PkS6y4T2+VjAWLXHWrfbIJY3E3aS7lUw==
+"@types/node@12.12.17":
+  version "12.12.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.17.tgz#191b71e7f4c325ee0fb23bc4a996477d92b8c39b"
+  integrity sha512-Is+l3mcHvs47sKy+afn2O1rV4ldZFU7W8101cNlOd+MRbjM4Onida8jSZnJdTe/0Pcf25g9BNIUsuugmE6puHA==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1128,25 +1128,25 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
-"@willbooster/eslint-config-ts@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@willbooster/eslint-config-ts/-/eslint-config-ts-2.3.0.tgz#6e126e82359b5f5e0623768ee33d5c99a7985a68"
-  integrity sha512-kJ0YYuE6wsuijJTQgJN5OE1DEDj4XJMdNlcJN4INS8nNM5mItBT98JiSH7F30mL9omEN18NkDgTqLrKFwjn8WA==
+"@willbooster/eslint-config-ts@2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@willbooster/eslint-config-ts/-/eslint-config-ts-2.3.2.tgz#97c1a6700245c329d11dde4535468670e1f83c83"
+  integrity sha512-Bc9iSfNM376Je60ZTQIaIqbZLbgzECBWmWEM6CSdDlhXI8e6t8c/CQ7R7RKJ18ur+Zt7Gh3xF7utCtPoH75zsg==
 
-"@willbooster/prettier-config@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@willbooster/prettier-config/-/prettier-config-2.3.0.tgz#9c5bd6bc7294fda0e856e1353dc6e89612409a50"
-  integrity sha512-KlRFmYLwtYiBNDLWw8XAtGF7rHWKDItisgJXTlH7cZAbdslVRRmIUQs73yZKke2oc29tcbKvOFtetB1wqkE5Yg==
+"@willbooster/prettier-config@2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@willbooster/prettier-config/-/prettier-config-2.3.2.tgz#70d9ca35982378e458fefea6141d65c0aa12b088"
+  integrity sha512-S8s96V0jWDRpGsriBTU3EqoUEar7lVtGU+z3mRpqTNJO734/ehThb6bp8cLSD+gfxpqu8LCxt2LSmUJI0a2dYQ==
 
-"@willbooster/renovate-config@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@willbooster/renovate-config/-/renovate-config-2.3.0.tgz#50555246c3f69700837c3fb8f6a91de48ad299d1"
-  integrity sha512-FsGOTXp9ejH3EvZIKNf9mRrtD2FaZKdSkzrvVzoFLp6nLyWDxpXqF0WbBjhI52Z7HBDHLXJ+amMvFNq0Iqxkzg==
+"@willbooster/renovate-config@2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@willbooster/renovate-config/-/renovate-config-2.3.2.tgz#4d03536661adb069de60715159abb39ce78bd6b5"
+  integrity sha512-407WDXT4hDFPPKF6ua+bPT9jU+gbbGWqtzITb0YrW7vUZO4tamHy7jFOPqslVKLIp19Wr8NfVIpfkuihniY2UQ==
 
-"@willbooster/tsconfig@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@willbooster/tsconfig/-/tsconfig-2.3.0.tgz#9de72eb2477c8d972bd9812f3fc285992981ff9c"
-  integrity sha512-TZjXJahMmZGoY5hWMRBYG2d0W1OWQEgGnlVy1m1PAi9RnIjvYS4od1EMfMjnrYw5yZR3RU3pbJPNk/EzZM1E1g==
+"@willbooster/tsconfig@2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@willbooster/tsconfig/-/tsconfig-2.3.3.tgz#37c0ffd744021f041d958663e1341252671bc2e6"
+  integrity sha512-U+qH6MJ3SXN/lQWLc8zTssufxjlno/ODlJdMVUvNfcwwDdEleoJc0h1jXYb2uzPDTdDA1qSLxwHBku+gekXwtw==
 
 abab@^2.0.0:
   version "2.0.3"
@@ -2478,6 +2478,11 @@ detect-libc@^1.0.2:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
+detect-newline@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
+  integrity sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==
+
 detect-newline@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
@@ -2778,10 +2783,10 @@ eslint-plugin-import@2.19.1:
     read-pkg-up "^2.0.0"
     resolve "^1.12.0"
 
-eslint-plugin-prettier@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.1.tgz#507b8562410d02a03f0ddc949c616f877852f2ba"
-  integrity sha512-A+TZuHZ0KU0cnn56/9mfR7/KjUJ9QNVXUhwvRFSR7PGPe0zQR6PTkmyqg1AtUUEOzTqeRsUwyKFh0oVZKVCrtA==
+eslint-plugin-prettier@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.2.tgz#432e5a667666ab84ce72f945c72f77d996a5c9ba"
+  integrity sha512-GlolCC9y3XZfv3RQfwGew7NnuFDKsfI4lbvRK+PIIo23SFH+LemGs4cKwzAaRa+Mdb+lQO/STaIayno8T5sJJA==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
@@ -7012,12 +7017,13 @@ sort-object-keys@^1.1.2:
   resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-1.1.2.tgz#d3a6c48dc2ac97e6bc94367696e03f6d09d37952"
   integrity sha1-06bEjcKsl+a8lDZ2luA/bQnTeVI=
 
-sort-package-json@1.30.0:
-  version "1.30.0"
-  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-1.30.0.tgz#bd7df0261ff10d3708f587defd9fcf81ff0569ec"
-  integrity sha512-1QMmOyfurS1X6PfIGqZTYcGjuCKxki4uMwzw87oAwPQiQeaDdgI7eE5bZN5CSFU5P3Hc2UgV5o4e+wIuhueoOg==
+sort-package-json@1.31.0:
+  version "1.31.0"
+  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-1.31.0.tgz#778c652b1ee88c15337b258d3ae7e47576e4fb88"
+  integrity sha512-zBdnTpMCJNZszbPcAbGIAgfRQ0A0dF/ZOsQdUHICZ6XLuIQK1Mcwp8zfkF3ySg2lT2oKxU4dVhh/9tZxGLBU0A==
   dependencies:
     detect-indent "^6.0.0"
+    detect-newline "3.1.0"
     glob "^7.1.6"
     sort-object-keys "^1.1.2"
 
