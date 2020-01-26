@@ -27,12 +27,12 @@
     "tslib": "1.10.0"
   },
   "devDependencies": {
-    "@types/jest": "24.9.0",
+    "@types/jest": "24.9.1",
     "@types/markdown-it": "0.0.9",
     "@types/node": "12.12.25",
     "@types/shelljs": "0.8.6",
-    "@typescript-eslint/eslint-plugin": "2.16.0",
-    "@typescript-eslint/parser": "2.16.0",
+    "@typescript-eslint/eslint-plugin": "2.17.0",
+    "@typescript-eslint/parser": "2.17.0",
     "@willbooster/eslint-config-ts": "2.3.2",
     "@willbooster/prettier-config": "2.3.2",
     "@willbooster/renovate-config": "2.3.2",
