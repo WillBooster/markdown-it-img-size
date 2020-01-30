@@ -4,10 +4,10 @@
   "repository": "git@github.com:WillBooster/markdown-it-img-size.git",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
+  "main": "dist/index.js",
   "files": [
     "dist/"
   ],
-  "main": "dist/index.js",
   "scripts": {
     "prebuild": "shx rm -Rf dist && shx mkdir dist",
     "build": "parcel build src/index.ts --target=node",
