@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "repository": "git@github.com:WillBooster/markdown-it-img-size.git",
   "license": "Apache-2.0",
-  "author": "WillBooster LLC",
+  "author": "WillBooster Inc.",
   "files": [
     "dist/"
   ],
@@ -12,19 +12,17 @@
     "prebuild": "shx rm -Rf dist && shx mkdir dist",
     "build": "parcel build src/index.ts --target=node",
     "cleanup": "yarn format && yarn lint-fix",
-    "format": "yarn sort-package-json && yarn prettier",
+    "format": "sort-package-json && yarn prettier",
     "lint": "eslint \"./{packages/*/,}{src,__tests__}/**/*.{js,jsx,ts,tsx}\"",
     "lint-fix": "yarn lint --fix",
     "prettier": "prettier --write \"**/{.*/,}*.{css,htm,html,js,json,jsx,md,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
-    "sort-package-json": "sort-package-json",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "update-fixture": "ts-node script/FixtureGenerator.ts"
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "image-size": "0.8.3",
-    "tslib": "1.10.0"
+    "image-size": "0.8.3"
   },
   "devDependencies": {
     "@types/jest": "24.9.1",
@@ -36,7 +34,6 @@
     "@willbooster/eslint-config-ts": "2.3.2",
     "@willbooster/prettier-config": "2.3.2",
     "@willbooster/renovate-config": "2.3.2",
-    "@willbooster/tsconfig": "2.3.3",
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.9.0",
     "eslint-plugin-import": "2.20.0",
