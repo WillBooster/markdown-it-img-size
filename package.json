@@ -27,10 +27,10 @@
   "devDependencies": {
     "@types/jest": "25.1.4",
     "@types/markdown-it": "0.0.9",
-    "@types/node": "13.9.0",
+    "@types/node": "13.9.1",
     "@types/shelljs": "0.8.6",
-    "@typescript-eslint/eslint-plugin": "2.22.0",
-    "@typescript-eslint/parser": "2.22.0",
+    "@typescript-eslint/eslint-plugin": "2.23.0",
+    "@typescript-eslint/parser": "2.23.0",
     "@willbooster/eslint-config-ts": "3.0.0",
     "@willbooster/prettier-config": "3.0.0",
     "@willbooster/renovate-config": "3.0.0",
