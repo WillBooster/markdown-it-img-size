@@ -27,10 +27,10 @@
   "devDependencies": {
     "@types/jest": "25.2.1",
     "@types/markdown-it": "0.0.9",
-    "@types/node": "13.13.4",
+    "@types/node": "13.13.5",
     "@types/shelljs": "0.8.7",
-    "@typescript-eslint/eslint-plugin": "2.30.0",
-    "@typescript-eslint/parser": "2.30.0",
+    "@typescript-eslint/eslint-plugin": "2.31.0",
+    "@typescript-eslint/parser": "2.31.0",
     "@willbooster/eslint-config-ts": "3.0.0",
     "@willbooster/prettier-config": "3.0.0",
     "@willbooster/renovate-config": "3.0.0",
@@ -46,8 +46,8 @@
     "prettier": "2.0.5",
     "shelljs": "0.8.4",
     "shx": "0.3.2",
-    "sort-package-json": "1.42.1",
-    "ts-jest": "25.4.0",
+    "sort-package-json": "1.42.2",
+    "ts-jest": "25.5.1",
     "ts-node": "8.10.1",
     "typescript": "3.8.3"
   }
