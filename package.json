@@ -25,9 +25,9 @@
     "image-size": "0.9.1"
   },
   "devDependencies": {
-    "@types/jest": "26.0.13",
+    "@types/jest": "26.0.14",
     "@types/markdown-it": "0.0.9",
-    "@types/node": "13.13.19",
+    "@types/node": "13.13.21",
     "@types/shelljs": "0.8.8",
     "@typescript-eslint/eslint-plugin": "2.34.0",
     "@typescript-eslint/parser": "2.34.0",
@@ -40,13 +40,13 @@
     "eslint-plugin-prettier": "3.1.4",
     "husky": "4.3.0",
     "jest": "25.5.4",
-    "lint-staged": "10.3.0",
+    "lint-staged": "10.4.0",
     "markdown-it": "10.0.0",
     "parcel-bundler": "1.12.4",
-    "prettier": "2.1.1",
+    "prettier": "2.1.2",
     "shelljs": "0.8.4",
     "shx": "0.3.2",
-    "sort-package-json": "1.44.0",
+    "sort-package-json": "1.46.0",
     "ts-jest": "25.5.1",
     "ts-node": "8.10.2",
     "typescript": "3.9.7"
