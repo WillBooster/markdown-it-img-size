@@ -22,12 +22,12 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "image-size": "0.9.1"
+    "image-size": "0.9.2"
   },
   "devDependencies": {
-    "@types/jest": "26.0.14",
+    "@types/jest": "26.0.15",
     "@types/markdown-it": "0.0.9",
-    "@types/node": "13.13.26",
+    "@types/node": "13.13.28",
     "@types/shelljs": "0.8.8",
     "@typescript-eslint/eslint-plugin": "2.34.0",
     "@typescript-eslint/parser": "2.34.0",
@@ -35,7 +35,7 @@
     "@willbooster/prettier-config": "3.0.0",
     "@willbooster/renovate-config": "3.0.0",
     "eslint": "6.8.0",
-    "eslint-config-prettier": "6.13.0",
+    "eslint-config-prettier": "6.14.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-prettier": "3.1.4",
     "husky": "4.3.0",
@@ -46,7 +46,7 @@
     "prettier": "2.1.2",
     "shelljs": "0.8.4",
     "shx": "0.3.2",
-    "sort-package-json": "1.46.0",
+    "sort-package-json": "1.46.1",
     "ts-jest": "25.5.1",
     "ts-node": "8.10.2",
     "typescript": "3.9.7"
