@@ -27,7 +27,7 @@
   "devDependencies": {
     "@types/jest": "26.0.15",
     "@types/markdown-it": "0.0.9",
-    "@types/node": "13.13.30",
+    "@types/node": "13.13.32",
     "@types/shelljs": "0.8.8",
     "@typescript-eslint/eslint-plugin": "2.34.0",
     "@typescript-eslint/parser": "2.34.0",
@@ -43,10 +43,10 @@
     "lint-staged": "10.5.1",
     "markdown-it": "10.0.0",
     "parcel-bundler": "1.12.4",
-    "prettier": "2.1.2",
+    "prettier": "2.2.0",
     "shelljs": "0.8.4",
     "shx": "0.3.3",
-    "sort-package-json": "1.46.1",
+    "sort-package-json": "1.48.0",
     "ts-jest": "25.5.1",
     "ts-node": "8.10.2",
     "typescript": "3.9.7"
