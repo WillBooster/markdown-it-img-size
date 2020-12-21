@@ -1,5 +1,7 @@
 import path from 'path';
+
 import MarkdownIt from 'markdown-it';
+
 import markdownItImgSize from '../src';
 import { readFixtureFile } from '../src/util';
 

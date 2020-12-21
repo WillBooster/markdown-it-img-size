@@ -1,7 +1,8 @@
 import path from 'path';
+
+import { imageSize } from 'image-size';
 import MarkdownIt from 'markdown-it';
 import StateCore from 'markdown-it/lib/rules_core/state_core';
-import { imageSize } from 'image-size';
 
 const index = (md: MarkdownIt): void => {
   const imgRegex = /!\s*\[\s*([^\]]+)\s*\]\s*\(\s*([^)]+)\s*\)/g;
