@@ -24,8 +24,9 @@ const index = (md: MarkdownIt): void => {
     });
   }
 
-  function replaceImgItSize(state: StateCore): void {
+  function replaceImgItSize(state: StateCore): boolean {
     state.src = convertMarkdownToHtml(state.src);
+    return true;
   }
 
   md.core.ruler.before('normalize', 'image', replaceImgItSize);
