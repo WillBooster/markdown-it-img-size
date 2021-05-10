@@ -22,7 +22,7 @@
   },
   "prettier": "@willbooster/prettier-config",
   "dependencies": {
-    "image-size": "0.9.3"
+    "image-size": "1.0.0"
   },
   "devDependencies": {
     "@types/jest": "26.0.20",
