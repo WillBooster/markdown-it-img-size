@@ -44,7 +44,7 @@
     "markdown-it": "12.0.4",
     "parcel-bundler": "1.12.4",
     "prettier": "2.2.1",
-    "shelljs": "0.8.4",
+    "shelljs": "0.8.5",
     "shx": "0.3.3",
     "sort-package-json": "1.49.0",
     "ts-jest": "26.5.1",
